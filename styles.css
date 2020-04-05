@@ -1,0 +1,258 @@
+
+
+ /* Eléments principaux de la page */
+
+
+
+.conteneur{
+    display : flex;
+    background-color: white;
+    border: 2px  #e9531d solid;
+
+}
+
+.convives{
+    border-bottom: 4px  #e9531d solid;
+}
+
+
+body
+{
+    background-color: black;
+    line-height: 30px;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+    
+}
+
+                                         /* Début des media query  */
+@media all and (max-width: 768px)
+
+{
+
+    #bloc_page
+
+    {
+
+        width: auto;
+
+    }
+
+      section
+    {
+        flex-direction: column;
+    }
+
+   
+img{
+    
+}
+
+.cache{
+   display: none;
+    
+
+}
+
+.conteneur{
+    flex-direction: column;
+}
+    
+
+    
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+
+ 
+       
+  
+
+
+
+
+
+
+
+
+
+
+
+}
+
+                                        /* Fin media query  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BTN */
+.buttons{
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+  	border-radius: 15px;
+	width: 120px;
+    height: 40px; 
+    margin-right: 10px;
+    border: 0.5px black solid;
+    background-color: #e9531d;
+
+    		
+}
+
+.btn2
+{
+          
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 60%;
+     border: 2px black solid;
+    width: 120px;
+    height: 40px; 
+    background-color: #e9531d;
+
+ }
+
+ .m{
+    border-top: 1px solid white;
+ }
+
+
+.f{
+    border-top: 1px solid black;
+
+}
+
+
+
+
+
+               /* body */
+
+section{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: solid #e9531d 2px;
+    background-color: white;
+
+
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+
+    margin-right: 20px;
+    flex: 3;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+aside{
+    flex: 1.2;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+.firsta{
+     display: block;
+     margin-left: 20px;
+     margin-right: 20px;
+           
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.second{
+	padding-left: 5px;
+	border: solid #e9531d 2px;
+    background-color: white;
+
+
+}
+.encoreune{
+    display: flex;
+}
+
+.dates{
+    text-align: center;
+
+}
+
+
+
+aside img
+{
+    margin-right: 8px;
+}
+
+
+footer{
+    border: solid #e9531d 2px;
+    background-color: white;
+}
+
+
+
+.footer{
+    margin-left: 15px; 
+    
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
